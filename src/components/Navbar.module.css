@@ -1,0 +1,28 @@
+.nav{
+    display: grid;
+    grid-template-columns: 10% 20%;
+    grid-gap:30%;
+    margin: 1% 0% 2% 30%;
+}
+.nav > div:nth-child(1){
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.insideNav{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 4%;
+}
+.home{
+    color: gray;
+    text-decoration: none;
+}
+.newBlog{
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: lightpink;
+    padding: 3%;
+    text-decoration: none;
+}

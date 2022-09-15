@@ -1,0 +1,13 @@
+.container{
+    text-align: center;
+}
+.box{
+    width: 50%;
+    margin: 0% 0% 1% 25%;
+    border: 1px solid black;
+}
+.box a{
+    text-decoration: none;
+    color: black;
+}
+
