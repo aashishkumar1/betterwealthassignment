@@ -4,6 +4,7 @@ import styles from './Navbar.module.css'
 
 const Navbar = () => {
   return (
+    <>
     <nav className={styles.nav}>
         <div>Blog App</div>
         <div className={styles.insideNav}>
@@ -11,6 +12,8 @@ const Navbar = () => {
             <Link to='addBlog' className={styles.newBlog}>New Blog</Link>
         </div>
     </nav>
+    <hr />
+    </>
   )
 }
 

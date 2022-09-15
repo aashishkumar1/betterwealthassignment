@@ -1,0 +1,36 @@
+form{
+    width:500px;
+    border: 1px solid black;
+    margin: 2% 0% 0% 30% ;
+    padding: 2%;
+    border-radius: 8px;
+    background-color: aqua;
+}
+label{
+    display: block;
+    padding: 1%;
+}
+input{
+    display: block;
+    width: 400px;
+    margin-top: 1%;
+    background-color:aliceblue;
+    border: none;
+}
+textarea{
+    display: block;
+    width: 400px;
+    margin-top: 1%;
+    height: 60px;
+    background-color:aliceblue;
+    border: none;
+}
+.btn{
+    background-color: palevioletred;
+    width: 75px;
+    margin-left: 1%;
+    padding: 1.5%;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}

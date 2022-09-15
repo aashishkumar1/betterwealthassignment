@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'
+import './AddBlog.css'
 
 const AddBlog = () => {
     const [inputs, setInputs] = useState({});    
@@ -28,6 +29,7 @@ const AddBlog = () => {
 
   return (
     <form onSubmit={handleSubmit}>
+      <h1>Add Blog Details</h1>
     <label>Blog title:
     <input 
       type="text" 
@@ -55,7 +57,7 @@ const AddBlog = () => {
         required
       />
       </label>
-      <input type="submit" />
+      <input type="submit" className='btn'/>
   </form>
   )
 }

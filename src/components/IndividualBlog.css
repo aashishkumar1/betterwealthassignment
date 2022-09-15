@@ -1,7 +1,26 @@
 .ind{
+    position: relative;
     width: 600px;
     border: 1px solid black;
     margin: 1% 0% 0% 30% ;
     text-align: center;
+    padding: 1%;
+    border-radius: 8px;
+    background-color: aqua;
+}
+.ind h1{
+    color: brown;
+}
+.ind p{
+    display: block;
+    width: 590px;
+    overflow-wrap: break-word;
+}
+.ind button{
+    font-size: 18px;
+    background-color: palevioletred;
     padding: 2%;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
 }

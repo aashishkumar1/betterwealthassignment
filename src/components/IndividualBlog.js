@@ -36,10 +36,10 @@ const IndividualBlog = () => {
     <>
     {loading ? <h1 style={{textAlign:"center"}}>Loading...</h1> :
      <div className='ind'>
-     <h1>{data.title}</h1>
-     <p>{data.body}</p>
-     <h4>Author: {data.author}</h4>
-     <button onClick={() => deleteHandler(id)}>Delete</button>
+        <h1>{data.title}</h1>
+        <p>{data.body}</p>
+        <h4>Author: {data.author}</h4>
+        <button onClick={() => deleteHandler(id)}>Delete</button>
     </div>    
     }
     </>

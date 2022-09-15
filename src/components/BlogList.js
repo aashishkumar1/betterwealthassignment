@@ -11,14 +11,14 @@ const BlogList = ({data}) => {
 
   return (
     <div className='container'>
-        <h2>All Blogs</h2>
+        <h2 style={{textAlign:"center"}}>All Blogs</h2>
      {
             data.map((item) => {
                 return (
                     <div key={item.id} className="box">
                         <Link to={`/blogs/${item.id}`}>
                             <h3>{item.title}</h3>
-                            <p>Author: {item.author}</p>
+                            <p>Written by {item.author}</p>
                         </Link>
                     </div>
                 )
